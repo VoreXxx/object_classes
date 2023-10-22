@@ -8,7 +8,7 @@ public class Main {
         Author stephenieMeyer = new Author("Stephenie", "Meyer");
         Book secondBook = new Book("Twilight", stephenieMeyer, 2005);
         System.out.println(secondBook.getTitleBook() + " " +secondBook.getAuthor().getName() + " " + secondBook.getAuthor().getSurname()+ " " + secondBook.getYearOfPublication());
-        secondBook.setYearOfPublication(2006);
+        secondBook.setYearOfPublication(2008);
         System.out.println(secondBook.getTitleBook() + " " +secondBook.getAuthor().getName() + " " + secondBook.getAuthor().getSurname()+ " " + secondBook.getYearOfPublication());
     }
 }
